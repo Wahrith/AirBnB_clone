@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-""" Class Review """
+"""
+This is review class that represents new reviews
+"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ Review class that inherits BaseModel """
+    """ Review subclass that inherits from BaseModel """
     place_id = ""
     user_id = ""
     text = ""

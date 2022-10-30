@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-""" Class State """
+"""
+This is state class represents new states
+"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ State class that inherits BaseModel"""
+    """ State subclass that inherits from BaseModel """
     name = ""
